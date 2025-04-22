@@ -1,0 +1,1 @@
+export default function RewardsPage() { return <div className="p-8 text-xl">Récompenses 🎉</div>; }

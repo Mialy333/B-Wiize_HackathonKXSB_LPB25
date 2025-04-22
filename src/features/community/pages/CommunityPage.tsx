@@ -1,0 +1,1 @@
+export default function CommunityPage() { return <div className="p-8 text-xl">Communauté 🤝</div>; }

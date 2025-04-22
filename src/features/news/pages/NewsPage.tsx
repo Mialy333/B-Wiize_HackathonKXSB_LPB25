@@ -1,0 +1,1 @@
+export default function NewsPage() { return <div className="p-8 text-xl">Actus & tendances 📰</div>; }
