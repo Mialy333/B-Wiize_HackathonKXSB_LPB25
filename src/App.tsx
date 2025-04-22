@@ -20,7 +20,7 @@ import { useTheme } from "./ThemeContext";
 import { SettingsButton } from "./components/SettingsButton/SettingsButton";
 import { Footer } from "./components/Footer/Footer";
 import { ChallengeCompletionModal } from "./components/Challenges/ChallengeCompletionModal";
-import { VoiceAssistant } from "./components/VoiceAssistant";
+import { VoiceAssistant } from "./components/Community/VoiceAssistant";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
