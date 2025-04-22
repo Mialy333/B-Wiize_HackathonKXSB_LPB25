@@ -61,7 +61,7 @@ export function VoiceAssistant() {
           listening ? "bg-red-500" : "bg-blue-500"
         } text-white rounded`}
       >
-        {listening ? "Arrêter" : "Parler"}
+        {listening ? "Stop" : "Talk"}
       </button>
       <p className="mt-2">{transcript}</p>
       <button
@@ -69,7 +69,7 @@ export function VoiceAssistant() {
         disabled={!transcript}
         className="mt-2 px-4 py-2 bg-green-500 text-white rounded disabled:bg-gray-400"
       >
-        Lire la réponse
+        Read the answer
       </button>
       {audioUrl && <audio src={audioUrl} controls className="mt-4" />}
     </div>
