@@ -595,7 +595,6 @@ export const Community: React.FC<CommunityProps> = ({
               isDark ? "bg-gray-800/90" : "bg-white/90"
             } backdrop-blur-sm shadow-lg`}
           >
-            <VoiceAssistant />
             <div className="flex space-x-1">
               <button
                 onClick={() => setActiveSort("hot")}
@@ -643,6 +642,7 @@ export const Community: React.FC<CommunityProps> = ({
                 <span>Top</span>
               </button>
             </div>
+            <VoiceAssistant />
           </div>
 
           {/* Posts */}
